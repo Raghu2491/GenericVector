@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		84CF413F1E9EC909000CA8A3 /* Vector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vector; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CF41421E9EC909000CA8A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		84CF41491E9EC955000CA8A3 /* Vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		84CF41411E9EC909000CA8A3 /* Vector */ = {
 			isa = PBXGroup;
 			children = (
+				84CF41491E9EC955000CA8A3 /* Vector.h */,
 				84CF41421E9EC909000CA8A3 /* main.cpp */,
 			);
 			path = Vector;

@@ -6,10 +6,26 @@
 //  Copyright © 2017 Admin Gowda. All rights reserved.
 //
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include<iostream>
+#include "Vector.h"
+int main()
+{
+    vectorClass<int> v;
+    int i = 0;
+    
+    while (i != 10)
+    {
+        v.pushback(i);
+        i++;
+    }
+    
+    v.print();
+    
+    v.insert_atposition_value(0, 99);
+    std::cout << std::endl;
+    std::cout << v.operator[](0);
+    std::cout << std::endl;
+    v.print();
     return 0;
+    
 }
